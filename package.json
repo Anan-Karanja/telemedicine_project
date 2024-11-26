@@ -1,0 +1,30 @@
+{
+  "name": "telemedicine-app-backend",
+  "version": "1.0.0",
+  "description": "Backend for the telemedicine app using Node.js, Express, and MySQL.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "telemedicine",
+    "Node.js",
+    "Express",
+    "MySQL",
+    "backend"
+  ],
+  "author": "Anan Njoroge",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.3",
+    "nodemon": "^3.1.7"
+  }
+}
